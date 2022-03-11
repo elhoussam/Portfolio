@@ -74,7 +74,6 @@ a {
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
-    ;
 }
 
 .main-btn {
@@ -117,6 +116,10 @@ a {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.cards {
+    padding: 0px;
 }
 
 .card {
@@ -241,4 +244,98 @@ footer span {
 footer .social-icons a {
     font-size: 1.3em;
     padding: 0 12px 0 0;
+}
+
+@media(max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+    .navigation a {
+        padding-left: 10px;
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    section {
+        padding: 80px 20px;
+    }
+    .main {
+        padding: 10px;
+        padding-left: 200px;
+    }
+    .main h2 {
+        font-size: 2.2em;
+    }
+    .main h3 {
+        font-size: 1em;
+    }
+    .Projects {
+        padding: 0px;
+    }
+}
+
+@media(max-width:650px) {
+    header {
+        padding-left: 5px;
+    }
+    .logo {
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    .navigation a {
+        font-weight: 500;
+        font-size: 0.9em;
+        padding-left: 10px;
+    }
+    .main {
+        padding-left: 150px;
+    }
+    footer p {
+        font-size: 1em;
+        font-weight: 300;
+    }
+    footer span {
+        font-weight: 400;
+    }
+    footer .social-icons a {
+        font-size: 1.1em;
+    }
+    .main-btn {
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width:500px) {
+    .main {
+        padding: 10px;
+        padding-left: 80px;
+    }
+    .main-btn {
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width:370px) {
+    header {
+        padding-left: 5px;
+    }
+    .logo {
+        font-weight: 700;
+        font-size: 0.7em;
+    }
+    .navigation a {
+        font-weight: 700;
+        font-size: 0.7em;
+        padding-left: 2px;
+    }
+    .main {
+        padding: 10px;
+        padding-left: 20px;
+    }
+    .main h2 {
+        font-size: 2em;
+    }
+    .main-btn {
+        font-size: 0.8em;
+    }
 }
