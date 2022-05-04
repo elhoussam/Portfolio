@@ -13,3 +13,64 @@ html {
 body {
     font-family: "Roboto","Arial",sans-serif;
 }
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height:56px;
+    padding:0 16px;
+}
+
+.left-section{
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+.left-section img{
+    width: 46%;
+    padding-left: 16px ;
+}
+.mid-section{
+    display:flex;
+    align-items: center;
+    margin-left:-9%;
+}
+.mid-section form{
+    display:flex;
+    height: 40px;
+    width:628px;
+}
+.mid-section input{
+    width:100%;
+    border-radius: 2px 0 0 2px;
+    padding:12px;
+    font-size:1.6rem;
+    border:1px solid #d3d3d3;
+    border-right:none;
+}
+.mid-section button{
+    width:64px;
+    border:1px solid #d3d3d3 ;
+    border-radius: 0 2px 2px 0;
+    padding-top:4px;
+    background-color: #f8f8f8;
+    cursor:pointer;
+}
+.mid-section .mic{ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:8px;
+
+    width: 40px;
+    height:40px;
+    border-radius: 50%; 
+    background-color: #f8f8f8;
+    cursor:pointer;
+}
+.right-section a{
+    padding:18px;
+    text-decoration: none;
+    color:black;
+}
