@@ -74,3 +74,54 @@ header{
     text-decoration: none;
     color:black;
 }
+
+.content-area {
+    height: calc(100vh - 56px);
+    display: flex;
+    background-color: #f9f9f9; 
+     
+} 
+aside {
+    height: 100%;
+    width: 280px;
+    background-color:white;
+    overflow-y: auto ; 
+}
+nav{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    margin: 15px 0;
+    padding-right: 15px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    padding:10px 16px;
+    text-decoration: none;
+    color:#030303;
+}
+.nav-link:hover{
+    background-color:  rgba(0,0,0,0.05);
+}
+.nav-link span{
+    margin-left:24px;
+    font-size:1.4rem;
+    line-height: 2em ;
+    font-weight: 400; 
+}
+.active{
+    background-color: #e5e5e5;
+}
+#active-span{
+    font-weight: 520; 
+}
+
+hr{ 
+    height: 2px;
+    background-color: #e5e5e5;
+    border:none;
+    margin:10px 0;
+    opacity: 50%;
+}
+
