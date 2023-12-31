@@ -159,6 +159,7 @@ section {
 }
 
 .project-card {
+  position: relative;
   background-color: white;
   border: 1px solid white;
   min-height: 13em;
@@ -173,17 +174,23 @@ section {
   transform: scale(1.1);
 }
 
-.project-image img {
-  width: 100%;
+.foodify {
+  background: center / cover no-repeat url(images/foodify.jpg);
 }
 
-.project-image img:hover {
-  opacity: 0.8;
-  width: 100%;
+.guideme {
+  background: center / cover no-repeat url(images/guidemeapp.jpg);
+}
+
+.ggao {
+  background: center / cover no-repeat url(images/gazoilapp.jpg);
 }
 
 .project-info {
   padding: 1em;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
 }
 
 .project-category {
