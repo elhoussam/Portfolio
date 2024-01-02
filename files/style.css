@@ -109,6 +109,8 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: row;
+
+  margin: 10px auto;
 }
 
 .cards {
@@ -163,7 +165,7 @@ section {
   background-color: white;
   border: 1px solid white;
   min-height: 13em;
-  width: 24em;
+  width: 18em;
   overflow: hidden;
   border-radius: 10px;
   margin: 20px;
